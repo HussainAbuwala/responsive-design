@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container{
+    padding: 0.8em;
+    background-color: rgb(251, 251, 253);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding: 0;
+}
+
+.nav-list-items{
+    margin: 0 1.3em;
+    display: inline;
+}
+
+.nav-img{
+    width: 17px;
+}
+
+.nav-list-items-hidden{
+    display: none;
+}
+
+@media all and (min-width: 1080px){
+    .nav-list-items-hidden{
+        display: block;
+    }
+    .nav-list-items-show{
+        display: none;
+    }
+    .nav-list{
+        justify-content: center;
+    }
+}
+
+
+/* main section styling */
+
+
+
+.main-section-image{
+    max-width: 100%;
+    margin-top: 1em;
+}
+
+.main-section{
+    text-align: center;
+    background-color: #fbfbfd;
+    /*background-color: aquamarine;*/
+    margin-bottom: 1em;
+    padding-top: 2em;
+}
+
+.main-section-link-container{
+    margin-top: 0.5em;
+}
+
+.main-section-title{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.main-section-subtitle{
+    font-weight:300;
+    font-size: 1.3rem;
+    margin-top: 5px;
+}
+
+.main-section-link{
+    margin: 0 1em;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.main-sub-section-div{
+    text-align: center;
+    /*background-color: aquamarine;*/
+    margin-bottom: 1em;
+    padding-top: 2em;
+    background-color: black;
+    color: white;
+}
+
+.main-section-title > a{
+    color:dodgerblue;
+}
+
+.main-sub-section-vision-pro{
+    background-image: url('./visionpro.png');
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size:cover;
+    color: black;
+}
+
+.main-sub-section-div-text{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main-section-para{
+    margin-top: 1em;
+    font-weight: 200;
+}
+
+.section-flex  img{
+    width: 70%;
+}
+
+@media all and (min-width: 800px){
+    .section-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-sub-section-div{
+        width: 50%;
+        margin: 0.5em;
+    }
+    .title-large{
+        font-size: 3rem;
+    }
+    .subtitle-large{
+        font-size: 1.7rem;
+    }
+    
+}
+
+.light{
+    background-color: #fbfbfd;
+    color: black;
+}
