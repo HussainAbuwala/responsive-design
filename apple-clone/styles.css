@@ -122,6 +122,10 @@ li a{
     font-weight: 200;
 }
 
+.main-section-icon{
+    width: 30px;
+}
+
 @media all and (min-width: 800px){
     .section-flex{
         display: flex;
@@ -148,3 +152,4 @@ li a{
     background-color: #fbfbfd;
     color: black;
 }
+
