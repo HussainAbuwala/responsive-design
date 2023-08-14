@@ -10,7 +10,11 @@ li a{
 
 .nav-container{
     padding: 0.8em;
+    width: 100%;
     background-color: rgb(251, 251, 253);
+    position: fixed;
+    z-index: 100;
+    opacity: 0.9;
 }
 
 .nav-list{
@@ -61,7 +65,7 @@ li a{
     background-color: #fbfbfd;
     /*background-color: aquamarine;*/
     margin-bottom: 1em;
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .main-section-link-container{
@@ -99,11 +103,11 @@ li a{
 }
 
 .main-sub-section-vision-pro{
+    color: black;
     background-image: url('./visionpro.png');
     background-repeat: no-repeat;
-    min-height: 500px;
+    background-position: center;
     background-size:cover;
-    color: black;
 }
 
 .main-sub-section-div-text{
@@ -116,10 +120,6 @@ li a{
 .main-section-para{
     margin-top: 1em;
     font-weight: 200;
-}
-
-.section-flex  img{
-    width: 70%;
 }
 
 @media all and (min-width: 800px){
@@ -136,6 +136,10 @@ li a{
     }
     .subtitle-large{
         font-size: 1.7rem;
+    }
+    .main-sub-section-div-text{
+        height: auto;
+        min-height: 100%;
     }
     
 }
